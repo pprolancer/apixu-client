@@ -36,7 +36,7 @@ class ApixuClient:
 
         return self._get(url, args)
 
-    def getForcastWeather(self, q=None, days=None):
+    def getForecastWeather(self, q=None, days=None):
         url = '%s/v1/forecast.json' % self.host_url
         args = {}
         if q:
