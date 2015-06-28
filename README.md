@@ -1,7 +1,7 @@
 apixu-client
 ========
 
-A client for call Apixu api.
+A python client library to call Apixu api.
 
 Installation:
 -------------------
