@@ -13,7 +13,8 @@ Example usage:
 
 ```python
 from apixu.client import ApixuClient, ApixuException
-client = ApixuClient('API_KEY')
+api_key = 'xxxxxxxxxxxx'
+client = ApixuClient(api_key)
 client.getCurrentWeather(q='London')
-client.getForcastWeather(q='07112', days=7)
+client.getForecastWeather(q='07112', days=7)
 ```
